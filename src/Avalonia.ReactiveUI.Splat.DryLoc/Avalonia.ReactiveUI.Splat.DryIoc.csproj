@@ -7,7 +7,7 @@
     <PackageId>CP.Avalonia.ReactiveUI.Splat.DryIoc</PackageId>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Avalonia.ReactiveUI" Version="11.0.0" />
+    <PackageReference Include="Avalonia.ReactiveUI" Version="11.0.10" />
     <PackageReference Include="Splat.DryIoc" Version="14.8.12" />
   </ItemGroup>
 </Project>
