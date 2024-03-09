@@ -11,19 +11,19 @@ using static Nuke.Common.Tools.DotNet.DotNetTasks;
 using Nuke.Common.Tools.PowerShell;
 using CP.BuildTools;
 
-[GitHubActions(
-    "BuildOnly",
-    GitHubActionsImage.WindowsLatest,
-    OnPushBranchesIgnore = new[] { "main" },
-    FetchDepth = 0,
-    InvokedTargets = new[] { nameof(Compile) })]
-[GitHubActions(
-    "BuildDeploy",
-    GitHubActionsImage.WindowsLatest,
-    OnPushBranches = new[] { "main" },
-    FetchDepth = 0,
-    ImportSecrets = new[] { nameof(NuGetApiKey) },
-    InvokedTargets = new[] { nameof(Compile), nameof(Deploy) })]
+//// [GitHubActions(
+////     "BuildOnly",
+////     GitHubActionsImage.WindowsLatest,
+////     OnPushBranchesIgnore = new[] { "main" },
+////     FetchDepth = 0,
+////     InvokedTargets = new[] { nameof(Compile) })]
+//// [GitHubActions(
+////     "BuildDeploy",
+////     GitHubActionsImage.WindowsLatest,
+////     OnPushBranches = new[] { "main" },
+////     FetchDepth = 0,
+////     ImportSecrets = new[] { nameof(NuGetApiKey) },
+////     InvokedTargets = new[] { nameof(Compile), nameof(Deploy) })]
 partial class Build : NukeBuild
 {
     //// Support plugins are available for:
