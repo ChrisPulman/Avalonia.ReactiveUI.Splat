@@ -7,7 +7,7 @@
     <PackageId>CP.Avalonia.ReactiveUI.Splat.MicrosoftDependencyResolver</PackageId>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Avalonia.ReactiveUI" Version="11.1.0" />
+    <PackageReference Include="Avalonia.ReactiveUI" Version="11.1.2" />
     <PackageReference Include="Splat.Microsoft.Extensions.DependencyInjection" Version="15.1.1" />
   </ItemGroup>
 </Project>
