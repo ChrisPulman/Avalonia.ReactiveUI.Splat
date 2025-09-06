@@ -8,6 +8,6 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Avalonia.ReactiveUI" Version="11.2.3" />
-    <PackageReference Include="Splat.DryIoc" Version="15.2.22" />
+    <PackageReference Include="Splat.DryIoc" Version="16.2.1" />
   </ItemGroup>
 </Project>
